@@ -1,0 +1,13 @@
+---
+- name: Update Cache Apt
+  hosts: managed
+  become: true
+  remote_user: student
+  tasks:
+  - name: updating on ubuntu
+    block:
+      - name: update package
+        apt:
+          update_cache: yes
+
+    when: ansible_distribution == "Ubuntu"
