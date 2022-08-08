@@ -1,6 +1,6 @@
 ---
 - name: Update Cache Apt
-  hosts: pod-nikoananto-managed1
+  hosts: managed
   become: true
   remote_user: student
   tasks:
