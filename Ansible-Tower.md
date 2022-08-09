@@ -7,9 +7,9 @@ Ansible Tower may be the more familiar option for Ansible users as it is the com
 
 Ansible Tower requires a license to use the software. There is a trial license available for free that allows you and your teams to take Tower for a spin.
 Tower currently only runs on the following distributions:
-- Red Hat Enterprise Linux (RHEL) 7 and 8
-- CentOS 6 and 7
-- Ubuntu 16.04
+ - Red Hat Enterprise Linux (RHEL) 7 and 8
+ - CentOS 6 and 7
+ - Ubuntu 16.04
 
 ## What is Ansible AWX ?
 Ansible AWX is the open-sourced project that was the foundation on which Ansible Tower was created. With this being said, Ansible AWX is a development branch of code that only undergoes minimal testing and quality engineering testing.
