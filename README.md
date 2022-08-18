@@ -1,2 +1,1 @@
-# ansible-awx
-this is just my personal playbook for testing
+the repository for playbook on project ansible awx
